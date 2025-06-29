@@ -178,7 +178,7 @@ different applications.
 * Before actually implementing the entire CMOS cross coupled LC VCO, analyzing the ac and transient behavior of the basic parallel resonator circuit is important.
 
 # AC Analysis of Parallel Resonator Circuit:
-
+![Screenshot from 2025-05-06 11-29-12](https://github.com/user-attachments/assets/1a8d3d81-1388-4f0f-a644-9aacd5259450)
 
 # REFERENCES:
 
@@ -186,13 +186,10 @@ different applications.
 * (ii) A Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends- by - N. R. SIVARAAJ AND K. K. ABDUL MAJEED( 20 November,2023,IEEE Access)
 * (iii) Design of 6.7 GHz ~7. 518 GHz Cross Coupled LC-VCO in 180nm CMOS technology- by- Sophiya Susan S, Dr. Siva S Yellampalli (Fifth International Conference on Computing Methodologies and Communication (ICCMC 2021))
 * (iv) A Voltage Controlled Oscillator with Inductive Divider Design and Analysis at Frequencies Above 100 GHz -by- Yasir Shafiullah,Rehman Akbar, Mikko Hietanen, Aarno Pärssinen from University of Oulu, Oulu, Finland  
-* (v) An Ultra-Low Phase Noise Low-Power 10-GHz LC-VCO with High-Q Common- Mode Harmonic Resonance for 5G Systems-by -Yahia Ehab, Ahmed Naguib, and Hesham N. Ahmed (2023 International Microwave and Antenna Symposium ![Screenshot from 2025-05-06 11-29-12](https://github.com/user-attachments/assets/1a8d3d81-1388-4f0f-a644-9aacd5259450)
-(IMAS))
+* (v) An Ultra-Low Phase Noise Low-Power 10-GHz LC-VCO with High-Q Common- Mode Harmonic Resonance for 5G Systems-by -Yahia Ehab, Ahmed Naguib, and Hesham N. Ahmed (2023 International Microwave and Antenna Symposium(IMAS))
 
 # ACKNOWLEDGEMENT:
 
 * I am grateful and thankful to Dr.Sakshi Arora(Analog Professor) for mentoring and helping me to complete this Summer Project with valuable learning successfully.
   
-
-
 # Refer to the Above files after downloading them into your system, to access the complete report of Project
