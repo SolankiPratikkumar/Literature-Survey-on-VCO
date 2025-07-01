@@ -144,12 +144,11 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 # CONCLUSION of Paper1:
 
-* The comparison between the Ring and LC-VCOs architectures. Furthermore, both VCO designs propose unique advantages and trade-offs, making them suitable for
-different applications.
+* The comparison between the Ring and LC-VCOs architectures. Furthermore, both VCO designs propose unique advantages and trade-offs, making them suitable for different applications.
 * Moreover, the Ring VCO has the advantage of a simpler design in its circuit implementation, and it is suitable for low-power and low-frequency applications. Therefore, the LC-VCO imparts an extraordinary phase noise performance and higher output frequency at the cost of a low tuning range.
 * Also, LC-VCO generally requires more complex circuitry and may suffer FOM large chip area and fabrication costs also high. According to the study, using an LC-VCO, one could acquire a millimeter wave range frequency.
 * Therefore, future research directions may concentrate on implementing high-tuning range LC-VCOs for reducing the complexity of the circuits, area, and power consumption.
-* Also, in NMOS based LC-VCO is on the Winning side for operating at High Frequency, Lower Phase Margin and Highest Negative FOMs
+* Also, in NMOS based LC-VCO is on the winning side for operating at High Frequency, Lower Phase Margin and Highest Negative FOMs
 
 # Paper 2: Small Signal Analysis of NMOS Cross-Coupled LC-VCO:
 
