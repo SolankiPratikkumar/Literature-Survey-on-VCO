@@ -117,7 +117,18 @@ I1 ≈ VDD − VREF
 * The tuning of frequency of oscillation for a wide range can be done by changing the value of control voltage and this is the benefit of this configuration. The linearity and bandwidth of VCO are determined by variation of control voltage Vctrl.
 * The main drawback of this circuit is that under low frequency, the current-starved inverter suffers from slow rise and fall at its output. Frequency of oscillation is given by fosc = Id/2NCtotalVctrl
 
-# Inductor Capacitor VCO (LCVCO):
+# Inductor Capacitor VCO (LC-VCO):
+
+* The oscillation frequency of LC topologies is equal to fosc = 1/(2π√LC), suggesting that only the inductor and capacitor values can be varied to tune the frequency, and other parameters such as bias currents and transistor transconductances affect fosc negligibly. Since it is difficult to vary the value of monolithic inductors, we simply change the tank capacitance to tune the oscillator.
+* Voltage-dependent capacitors are called “varactors.” A reverse-biased pn junction can serve as a varactor.
+<img width="958" height="368" alt="image" src="https://github.com/user-attachments/assets/c33b68ee-5c42-4fdc-9779-9aeceb95632a" />
+
+* To avoid forward-biasing D1 and D2 significantly, Vcont must not exceed VX or VY by more than a few hundred millivolts. Thus,if the peak amplitude at each node is A, then 0 < Vcont < VDD − A + 300 mV, where it is assumed that a forward bias of 300 mV creates negligible current.
+* Interestingly, the circuit suffers from a trade-off between the output swing and the tuning range. This effect appears in most LC oscillators.
+* Note that, since the swings at X and Y are typically large (e.g., 1 Vpp at each node), the capacitanceof D1 and D2 varies with time. Nonetheless, the “average” value of the Capacitance is still a function of Vcont , providing the tuning range.
+* So, the varactor diode is represented by Simple diode with series resistance of diode and a capacitance Cn represents the (voltage-dependent) capacitance between the n-well and the substrate.
+<img width="216" height="157" alt="image" src="https://github.com/user-attachments/assets/e39cbc68-8c3f-4c57-9b17-c84b96405d8f" />
+
 
 ![image](https://github.com/user-attachments/assets/1affed8a-2e95-40cc-8294-d6f3f425246f)
 
@@ -126,23 +137,22 @@ I1 ≈ VDD − VREF
 
 # Paper 1: Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends A Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends( 8 November,2023 ):
 
-## A. PHASE NOISE ANALYSIS OF THE REPORTED VCOs:
-
+## Phase Noise Analysis of the all reported VCOs:
 * Phase noise can be expressed as the proportion of noise within a 1-Hz bandwidth at a given frequency offset (fm), relative to the amplitude of the oscillator signal at the
 frequency (fo). A comparison between the phase noise of the ring VCO and the LC-VCO, as stated in the reported work. As a consequence of the literature survey, the phase noise of the Ring VCOs varied between −86.13 dBc/Hz and −110 dBc/Hz, and for the LC-VCO is between −110.5 to −136.57 dBc/Hz. Therefore, it is concluded that to have a better phase noise, LC-VCO would be a better option as compared to Ring-based VCO circuits.
 * The comparison between the phase noises reported by Class-B to Class-F and Colpitts oscillators in harmony with the reported work and the results. Therefore, researchers summarise the evidence that the colpitts oscillator brings superior PN upto −140 dBc/Hz, class-C and Class-D: similarly Class- C up to -135 and others can provide moderate phase noise.
 
-## B.OPERATING FREQUENCY ANALYSIS OF THE REPORTED VCOS:
+## Operating Frequency analysis of the reported VCOs:
 
 * A VCO’s maximum operational frequency is the highest frequency, which it can consistently and accurately produce an output signal.It demonstrates the maximum
 operating frequency ranges of ring-based VCO, The maximum operating frequency ranges of LC-based VCO, the comparison between the maximum operating frequency ranges of Ring- based VCO as well as LC- based VCO and the maximum operating frequency ranges of Class-B to class-F LC- VCO and Colpitts LC-VCO respectively.
 * Consequently, it is identified from the literature survey that the ring-based VCO can opt for radio frequency ranges from 0.4 GHz to 4.3 GHz. Similarly, the LC-VCO can be selected for both radio frequency as well as millimeter wave range frequencies, ranging from 1.5 GHz to 105.2 GHz.
 
-##  C. FOM ANALYSIS OF THE REPORTED VCOs:
+## FOMs analysis of all reported VCOs:
 
 * With a greater negative value or a larger absolute value of the FOM, the performance of the VCO is better. According to the FOM observations of the VCOs, the LC-VCO can deliver better phase noise and a higher operating frequency when compared to the ring VCO, which is adequate for high-frequency mm-wave range applications.
 
-# CONCLUSION of Paper1:
+# Conclusion from Paper-1:
 
 * The comparison between the Ring and LC-VCOs architectures. Furthermore, both VCO designs propose unique advantages and trade-offs, making them suitable for different applications.
 * Moreover, the Ring VCO has the advantage of a simpler design in its circuit implementation, and it is suitable for low-power and low-frequency applications. Therefore, the LC-VCO imparts an extraordinary phase noise performance and higher output frequency at the cost of a low tuning range.
@@ -150,7 +160,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 * Therefore, future research directions may concentrate on implementing high-tuning range LC-VCOs for reducing the complexity of the circuits, area, and power consumption.
 * Also, in NMOS based LC-VCO is on the winning side for operating at High Frequency, Lower Phase Margin and Highest Negative FOMs
 
-# Paper 2: Small Signal Analysis of NMOS Cross-Coupled LC-VCO:
+# Paper-2: Small Signal Analysis of NMOS Cross-Coupled LC-VCO:
 
 ![image](https://github.com/user-attachments/assets/53c43be8-6657-451f-9318-3ca2af439d2e)
 
@@ -167,7 +177,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 * Tuning: Varactors adjust the capacitance in the LC tank, changing the oscillation frequency.
 
 # Simulation of LC VCO:
-## Design of 6.7 GHz~7.518 GHz Cross-Coupled LC-VCO in 180nm CMOS technology by Sophiya Susan S and Dr. Siva S Yellampalli
+### Design of 6.7 GHz~7.518 GHz Cross-Coupled LC-VCO in 180nm CMOS technology by Sophiya Susan S and Dr. Siva S Yellampalli 
 
 * CMOS technology is good choice since it reduces cost and has low power compared to other technologies. 
 * The most widely used oscillator structures are Ring oscillators and LC oscillators. Considering that the Phase noise parameter is better for an LC oscillator compared to the poor phase noise of a ring oscillator, in this paper, we chose an LC oscillator for implementation.
@@ -190,5 +200,4 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 # ACKNOWLEDGEMENT:
 
 * I am grateful and thankful to Dr.Sakshi Arora(Analog Professor) for mentoring and helping me to complete this Summer Project with valuable learning successfully.
-  
-# Refer to the Above files after downloading them into your system, to access the complete report of Project
+
