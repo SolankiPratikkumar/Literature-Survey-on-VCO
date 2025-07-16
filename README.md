@@ -1,4 +1,4 @@
-# Summer Project on VCO
+# Voltage Controlled Oscillator(VCO) Project:
 
 # What is Voltage Controlled Oscillator(VCO): 
 
@@ -189,7 +189,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 # AC Analysis of Parallel Resonator Circuit:
 ![Screenshot from 2025-05-06 11-29-12](https://github.com/user-attachments/assets/1a8d3d81-1388-4f0f-a644-9aacd5259450)
 
-# REFERENCES:
+# Reference:
 
 * (i) Design of Analog CMOS Integrated Circuits, Second Edition- By Behzad Razavi
 * (ii) A Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends- by - N. R. SIVARAAJ AND K. K. ABDUL MAJEED( 20 November,2023,IEEE Access)
