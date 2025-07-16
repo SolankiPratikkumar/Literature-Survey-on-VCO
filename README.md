@@ -1,6 +1,6 @@
-# Voltage Controlled Oscillator(VCO) Project:
+# Voltage Controlled Oscillator(VCO) Project
 
-# What is Voltage Controlled Oscillator(VCO): 
+# What is Voltage Controlled Oscillator(VCO)
 
 * A voltage-controlled oscillator is an oscillator whose output can be varied over a range, which is controlled by the input DC voltage. It is an oscillator whose output frequency is directly related to the voltage at its input.
 * The oscillation frequency varies from a few hertz to hundreds of GHz. By varying the input DC voltage, the output frequency of the signal produced is adjusted.
