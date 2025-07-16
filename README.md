@@ -5,7 +5,7 @@
 * A voltage-controlled oscillator is an oscillator whose output can be varied over a range, which is controlled by the input DC voltage. It is an oscillator whose output frequency is directly related to the voltage at its input.
 * The oscillation frequency varies from a few hertz to hundreds of GHz. By varying the input DC voltage, the output frequency of the signal produced is adjusted.
 
-# Voltage Controlled Oscillator Applications:
+# Voltage Controlled Oscillator Applications
 
 * (a) Function generator by square and triangular wave generator
 * (b) Music Synthesizers generate audio signals that can be manipulated to create various sounds and effects
@@ -18,7 +18,7 @@
 * (i) GPS Receivers helps in generating the high-precision frequencies required to lock onto satellite signals and determine position
 * (j) Television by generating the carrier signal for tuning into different channels
 
-# Working Principle of VCO:
+# Working Principle of VCO
 
 * Consider the unity-gain negative-feedback Vout/Vin(s) = H(s)/[1 + H(s)]
 * If a negative-feedback circuit has a loop gain that satisfies two conditions:
@@ -28,11 +28,11 @@ H(jω0) = 180degree
 * We can see that at nominal control voltage represented by Vc(nom), the oscillator works at its free running or normal frequency, fc(nom).
 * As the control voltage decreases from nominal voltage, the frequency also decreases and as the nominal control voltage increases, the frequency also increases.
 
-# Characteristic of VCO:
+# Characteristic of VCO
 
 ![image](https://github.com/user-attachments/assets/c23a527d-8e39-4d1d-bbf3-1a579b1d8a82)
 
-# Performance Parameter:
+# Performance Parameter
 
 * Center Frequency: The center frequency is determined by the environment in which the VCO is used. For example, in the clock generation network of a microprocessor,the VCO may be required to run at the clock rate or even twice that. Today’s CMOS VCOs achieve center frequencies as high as hundreds of gigahertz.
   
@@ -46,7 +46,7 @@ H(jω0) = 180degree
   
 * Output Signal Purity: Even with a constant control voltage, the output waveform of a VCO is not perfectly periodic. The electronic noise of the devices in the oscillator and supply noise lead to noise in the output phase and frequency. These effects are quantified by “jitter” and “phase noise” and determined by the requirements of each application
 
-# Key Specification:
+# Key Specification
 
 * Phase Noise(P.N.): The short-term frequency fluctuations of an oscillator, typically measured in dBc/Hz at a specified offset from the carrier frequency.
 * Supply Voltage: The required voltage to Turn ON the VCO is Vdd
@@ -61,11 +61,11 @@ H(jω0) = 180degree
 Kvco =Δfout /ΔVcontrol
 * Offset Frequency(Δf): Its the frequency difference from the carrier frequency at which specific characteristics of VCO, like phase noise, are measured
   
-# Types of VCO:
+# Types of VCO
 
 ![image](https://github.com/user-attachments/assets/ef7973ca-9e15-4db0-afa2-753c1ac81215)
 
-# Three Stage Ring Oscillator:
+# Three Stage Ring Oscillator
 
 ![image](https://github.com/user-attachments/assets/fa04396e-9489-48bc-86a9-e8f648205788)
 
@@ -94,7 +94,7 @@ high input), forcing VY to rise to VDD after one inverter delay, TD, and VZ to f
 * While the small-signal oscillation frequency is given by A0√3ω0/2 when the circuit is released with all inverters at their trip point, the oscillation begins
 with a frequency of √3A0ω0/2, but, as the amplitude grows and the circuit becomes nonlinear, the frequency shifts to 1/(6TD) (which is a lower value)
 
-# Differential Ring VCO:
+# Differential Ring VCO
 
 ![image](https://github.com/user-attachments/assets/78c41502-bf5c-4a60-9ede-ffba9656b97c)
 
@@ -106,7 +106,7 @@ I1 ≈ VDD − VREF
 * Thus, if process and temperature variations, say, decrease I1 and ISS, then A1 increases the on-resistance of M3–M5, forcing VP and hence VX and VY (when M1 or M2 is fully on) equal to VREF The bandwidth of the op amp A1 in Figure is of some concern.
 * If a change in Vcont takes a long time to change ωout, then the settling speed of a PLL using this VCO degrades significantly.
 
-# Current Straved VCO:
+# Current Straved VCO
 
 ![image](https://github.com/user-attachments/assets/ceb73701-fb34-47db-8478-db25d19b81d4)
 
@@ -117,7 +117,7 @@ I1 ≈ VDD − VREF
 * The tuning of frequency of oscillation for a wide range can be done by changing the value of control voltage and this is the benefit of this configuration. The linearity and bandwidth of VCO are determined by variation of control voltage Vctrl.
 * The main drawback of this circuit is that under low frequency, the current-starved inverter suffers from slow rise and fall at its output. Frequency of oscillation is given by fosc = Id/2NCtotalVctrl
 
-# Inductor Capacitor VCO (LC-VCO):
+# Inductor Capacitor VCO (LC-VCO)
 
 * The oscillation frequency of LC topologies is equal to fosc = 1/(2π√LC), suggesting that only the inductor and capacitor values can be varied to tune the frequency, and other parameters such as bias currents and transistor transconductances affect fosc negligibly. Since it is difficult to vary the value of monolithic inductors, we simply change the tank capacitance to tune the oscillator.
 * Voltage-dependent capacitors are called “varactors.” A reverse-biased pn junction can serve as a varactor.
@@ -135,14 +135,14 @@ I1 ≈ VDD − VREF
 * An inductor L1 placed in parallel with a capacitor C1 resonates at a frequency ωres = 1/√L1C1. At this frequency, the impedances of the inductor, j L1ωres, and the capacitor, 1/(jC1ωres), are equal and opposite, thereby yielding an infinite impedance.
 * So, the circuit has an infinite quality factor, Q In practice, inductors (and capacitors) suffer from resistive components. For example, the series resistance of the metal wire used in the inductor can be modelled as shown in the below figure . We define the Q of the inductor as L1ω/Rs.
 
-# Paper 1: Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends A Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends( 8 November,2023 ):
+## Paper 1: Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends A Comparative Study of Ring VCO and LC-VCO: Design, Performance Analysis, and Future Trends( 8 November,2023 )
 
-## Phase Noise Analysis of the all reported VCOs:
+### Phase Noise Analysis of the all reported VCOs
 * Phase noise can be expressed as the proportion of noise within a 1-Hz bandwidth at a given frequency offset (fm), relative to the amplitude of the oscillator signal at the
 frequency (fo). A comparison between the phase noise of the ring VCO and the LC-VCO, as stated in the reported work. As a consequence of the literature survey, the phase noise of the Ring VCOs varied between −86.13 dBc/Hz and −110 dBc/Hz, and for the LC-VCO is between −110.5 to −136.57 dBc/Hz. Therefore, it is concluded that to have a better phase noise, LC-VCO would be a better option as compared to Ring-based VCO circuits.
 * The comparison between the phase noises reported by Class-B to Class-F and Colpitts oscillators in harmony with the reported work and the results. Therefore, researchers summarise the evidence that the colpitts oscillator brings superior PN upto −140 dBc/Hz, class-C and Class-D: similarly Class- C up to -135 and others can provide moderate phase noise.
 
-## Operating Frequency analysis of the reported VCOs:
+### Operating Frequency analysis of the reported VCOs:
 
 * A VCO’s maximum operational frequency is the highest frequency, which it can consistently and accurately produce an output signal.It demonstrates the maximum
 operating frequency ranges of ring-based VCO, The maximum operating frequency ranges of LC-based VCO, the comparison between the maximum operating frequency ranges of Ring- based VCO as well as LC- based VCO and the maximum operating frequency ranges of Class-B to class-F LC- VCO and Colpitts LC-VCO respectively.
@@ -152,7 +152,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 * With a greater negative value or a larger absolute value of the FOM, the performance of the VCO is better. According to the FOM observations of the VCOs, the LC-VCO can deliver better phase noise and a higher operating frequency when compared to the ring VCO, which is adequate for high-frequency mm-wave range applications.
 
-# Conclusion from Paper-1:
+### Conclusion from Paper-1:
 
 * The comparison between the Ring and LC-VCOs architectures. Furthermore, both VCO designs propose unique advantages and trade-offs, making them suitable for different applications.
 * Moreover, the Ring VCO has the advantage of a simpler design in its circuit implementation, and it is suitable for low-power and low-frequency applications. Therefore, the LC-VCO imparts an extraordinary phase noise performance and higher output frequency at the cost of a low tuning range.
@@ -179,7 +179,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 # Simulation of LC VCO:
 ### Design of 6.7 GHz~7.518 GHz Cross-Coupled LC-VCO in 180nm CMOS technology by Sophiya Susan S and Dr. Siva S Yellampalli 
 
-* CMOS technology is good choice since it reduces cost and has low power compared to other technologies. 
+* We are simulating using gpdk 45nm CMOS technology is good choice since it reduces cost and has low power compared to other technologies. 
 * The most widely used oscillator structures are Ring oscillators and LC oscillators. Considering that the Phase noise parameter is better for an LC oscillator compared to the poor phase noise of a ring oscillator, in this paper, we chose an LC oscillator for implementation.
 * The topology of PMOS only circuit has similarity with the NMOS only topology. However,with the variations in the mobility, the size of transistors is twice greater than nmos transistor to achieve the similar transconductance. Hence PMOS cross coupled VCO consume more power when compared to other two topologies. 
 * Compared to PMOS cross coupled VCO, NMOS cross coupled VCO consumes less power and low phase noise
