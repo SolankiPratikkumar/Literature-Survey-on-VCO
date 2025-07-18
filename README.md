@@ -250,12 +250,114 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 # NMOS Based LC-VCO:
 ## University Of California RF Learnings:
+
 <img width="408" height="579" alt="image" src="https://github.com/user-attachments/assets/cf7848a1-aa13-4118-b95a-4bb3bb1d7a69" />
+
 <img width="413" height="572" alt="image" src="https://github.com/user-attachments/assets/125b5279-3f19-40de-9ea2-9a23c61187e3" />
+
 <img width="405" height="530" alt="image" src="https://github.com/user-attachments/assets/058873ee-d456-4f9b-8372-005937e93d8f" />
+
 <img width="403" height="578" alt="image" src="https://github.com/user-attachments/assets/1818be1a-2184-458c-b9bf-ab94bb8814df" />
+
 <img width="466" height="671" alt="image" src="https://github.com/user-attachments/assets/0fbbae08-05d5-4a70-b41f-3a85f911de4e" />
+
 <img width="458" height="384" alt="image" src="https://github.com/user-attachments/assets/07bdca4f-25f2-457f-b3a3-ef9bc5d8ddb4" />
+
+# Simulation of NMOS based LC VCO:
+### DC Operating NMOS LCVCO with Tail Current Source circuit not running:
+<img width="1920" height="1080" alt="1_DC_Operating_NMOS_LCVCO_with_Tail_Current_Source_ckt_Not_started" src="https://github.com/user-attachments/assets/4477aaf7-b51c-4c85-a5ad-07acdd70787c" />
+
+### DC Operating NMOS LCVCO with Tail Current Source circuit running with stimulus:
+<img width="1920" height="1080" alt="2_DC_Operating_NMOS_LCVCO_with_Tail_Current_Source_ckt_started" src="https://github.com/user-attachments/assets/3e35ecc7-e84f-429b-864f-48a12442be94" />
+
+### ADE Explorer with Vbias_Tail_Current_Source:
+<img width="1920" height="1080" alt="3_a_ADE Explorer with Vbias_ Tail_Current_Source" src="https://github.com/user-attachments/assets/687ace59-3093-4a2a-9095-6bd0fcafdff0" />
+
+### Reference Frequency(delF) value with Tail current source:
+<img width="1920" height="1080" alt="3_delF value with Tail current source" src="https://github.com/user-attachments/assets/816a715a-5554-448b-999e-d0cb7637c062" />
+
+### Node voltage Vy of Transistor:
+<img width="1920" height="1080" alt="4_Nodes voltage Vy of Transistor" src="https://github.com/user-attachments/assets/f1a9dc27-872c-4971-82e2-167add1eada2" />
+
+### Nodes voltage of Transistors Vx, Vy:
+<img width="1920" height="1080" alt="5_Nodes voltages of Transistors Vx, Vy" src="https://github.com/user-attachments/assets/2ec4f461-2f9c-460c-8bf0-8e4fe9828ab5" />
+
+### Current in both NMOS:
+<img width="1920" height="1080" alt="6_Current in both NMOS" src="https://github.com/user-attachments/assets/ff934077-23f3-4a95-95cd-2404546a3832" />
+
+### Ipeak value of Current:
+<img width="1920" height="1080" alt="7_Ipeak value of Current" src="https://github.com/user-attachments/assets/ba7af29d-5988-4d11-b286-53c33fc2686a" />
+
+### Transient and Oscillation Frequency DFT plot Vx Node:
+<img width="1920" height="1080" alt="8_Transient and Oscillation Frequency_DFT_plot_Vx_Node" src="https://github.com/user-attachments/assets/e6c7b909-2650-4b11-8678-9e65ddfe4f48" />
+
+### Cadence Calculator DFT plot Vx Node:
+<img width="1920" height="1080" alt="9_Calculator__DFT_plot_Vx_Node" src="https://github.com/user-attachments/assets/60010207-7211-48a2-9f4c-2b119076ad1f" />
+
+### Periodic Steady State(PSS) Frequency plot:
+<img width="1920" height="1080" alt="10_a_PSS_Freq_plot" src="https://github.com/user-attachments/assets/b242c2b5-9fc8-4934-a5b6-5b9552b9d875" />
+<img width="1920" height="1080" alt="10_PSS_Freq_plot" src="https://github.com/user-attachments/assets/c867c8d7-b559-4a21-ba9e-5a75cb60ae87" />
+
+### Harmonic Balance(HB) Frequency plot:
+<img width="1920" height="1080" alt="11_HB_Plot_Configuration" src="https://github.com/user-attachments/assets/13bdc298-ac6c-4df2-b606-5f4cd723c405" />
+
+### PSS & HB plot comparison:
+<img width="1920" height="1080" alt="12_PSS HB_plot _comparison" src="https://github.com/user-attachments/assets/e4bacd60-fb7b-4d92-9e21-9efbe57ecdd8" />
+
+### Phase Noise & Output Noise plot:
+<img width="1920" height="1080" alt="13_a_Phase Noise Output_Noise" src="https://github.com/user-attachments/assets/30c8d4f3-29f5-4055-918d-3ec7ec842c16" />
+
+### Tail Current Source Phase Noise plot:
+<img width="1920" height="1080" alt="13_Tail_Current_Source_Phase_Noise" src="https://github.com/user-attachments/assets/883a97b4-7bc5-4a16-a37a-563d7abeccf3" />
+
+### Figure Of Merit(FOM) plot at oscillation frequency:
+<img width="1920" height="1080" alt="14_FOM_at_oscillation_frequency" src="https://github.com/user-attachments/assets/d92a3156-bd29-48ae-89e6-3d629ee4b478" />
+
+### DC Operating NMOS LC-VCO with Tail NMOS Vbias for 1mA current:
+<img width="1920" height="1080" alt="15_DC_Operating_NMOS_LCVCO_with_Tail_NMOS_Vbias" src="https://github.com/user-attachments/assets/15190d4e-5ffc-44b1-b706-fa40696737bb" />
+
+### ADE Explorer with Vbias tail NMOS:
+<img width="1920" height="1080" alt="16_ADE Explorer with Vbias_ Tail_NMOS" src="https://github.com/user-attachments/assets/4893dd0b-5e21-41bf-8f2a-2b1147186dc1" />
+
+### Phase Noise with tail NMOS Vbias:
+<img width="1920" height="1080" alt="17_PN with tail NMOS_Vbias" src="https://github.com/user-attachments/assets/ca9f1498-d7b4-4cd5-8339-966ee563fce5" />
+
+### Parametric Sweep for Reference Frequency(delF):
+<img width="1920" height="1080" alt="18_Parametric_Sweep_delF" src="https://github.com/user-attachments/assets/d68e2111-1d9c-429f-962a-422b1487d19d" />
+
+### Parametric Sweep delF impact on FOM:
+<img width="1920" height="1080" alt="19_Parametric_Sweep_delF_impact_on_FOM" src="https://github.com/user-attachments/assets/d247f454-dec6-4aaf-ade2-020b8c589603" />
+
+### Tail Current Mirror Noise contribution:
+<img width="1920" height="1080" alt="20_Tail_Current_Mirror_Noise_contribution" src="https://github.com/user-attachments/assets/d98222cd-46af-40e3-b03e-25d7e8ae16fd" />
+
+### Tuning Vbias for previous Iss=1mA:
+<img width="1920" height="1080" alt="21_Tuning_Vbias_for_previous_Iss=1mA" src="https://github.com/user-attachments/assets/129adfe6-cb72-41e4-b888-48ec15e52a5c" />
+
+### Transient plot current mirror net:
+<img width="1920" height="1080" alt="22_Transient_plot_current_mirror_net" src="https://github.com/user-attachments/assets/ff318dd6-cc55-417d-8e7c-7408d1705ed7" />
+
+### Phase Noise with Tail Current parametric sweep in current mirror:
+<img width="1920" height="1080" alt="23_Phase Noise with Tail_Current variation_in_current_mirror" src="https://github.com/user-attachments/assets/fc5ae2bf-205d-4e11-b6fb-891f134408c0" />
+
+#### CMOS based LC-VCO design making oscillation frequency of 10GHz.
+
+### Previous Parallel RLC resonance circuit:
+<img width="1920" height="1080" alt="1_RLC_CKT_Foscillation of 7 9GHz" src="https://github.com/user-attachments/assets/c3e63e05-6f6c-4b75-8b77-683709f80bde" />
+
+### Dangerous resonance current-voltage which can damage circuit:
+<img width="1920" height="1080" alt="2_Dangerous_Resonance_current_voltage_damage_Ckt" src="https://github.com/user-attachments/assets/1931c29e-7462-4dee-8962-6f0a7e8df2d8" />
+
+### Parametric sweep for to get 10GHz oscillation frequency:
+<img width="1920" height="1080" alt="3_Parametric_Sweep for_Lp_not_Possible to get 10GHz_Oscillation_freq_in_LC_NMOS_width" src="https://github.com/user-attachments/assets/ec6586f9-b87a-49fa-b8b9-20fd3f5bef3c" />
+
+### 10GHz_RLC_resonce_oscillation_circuit:
+<img width="1920" height="1080" alt="4__10GHz_RLC_oscillation_ckt" src="https://github.com/user-attachments/assets/c6f6bbeb-d01b-4206-ac92-1d86e4130680" />
+
+### Oscillation Frequency of 10GHz for given RLC circuit:
+<img width="1920" height="1080" alt="5_Foscillation for 10GHz" src="https://github.com/user-attachments/assets/a0547e46-e745-4cb8-9c4a-f3f0a7edb80a" />
+
+#### Finally try to size the circuit but NMOS,PMOS width was too large that,simulator can't take those value.
 
 # Reference
 
