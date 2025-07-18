@@ -176,7 +176,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 * Negative Resistance: The transistors provide negative resistance to counteract losses and sustain oscillations.
 * Tuning: Varactors adjust the capacitance in the LC tank, changing the oscillation frequency.
 
-# Simulation of LC VCO:
+# Simulation of CMOS based LC VCO:
 ### Design of 6.7 GHz~7.518 GHz Cross-Coupled LC-VCO in 180nm CMOS technology by Sophiya Susan S and Dr. Siva S Yellampalli 
 
 * We are simulating using gpdk 45nm CMOS technology is good choice since it reduces cost and has low power compared to other technologies. 
@@ -246,6 +246,16 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 ## Rp variation with L,C parametric sweep:
 <img width="1920" height="1080" alt="Rpvariation with L,C parametric" src="https://github.com/user-attachments/assets/97ba10bd-acdf-434f-ba99-2b74691f67c1" />
+
+
+# NMOS Based LC-VCO:
+## University Of California RF Learnings:
+<img width="408" height="579" alt="image" src="https://github.com/user-attachments/assets/cf7848a1-aa13-4118-b95a-4bb3bb1d7a69" />
+<img width="413" height="572" alt="image" src="https://github.com/user-attachments/assets/125b5279-3f19-40de-9ea2-9a23c61187e3" />
+<img width="405" height="530" alt="image" src="https://github.com/user-attachments/assets/058873ee-d456-4f9b-8372-005937e93d8f" />
+<img width="403" height="578" alt="image" src="https://github.com/user-attachments/assets/1818be1a-2184-458c-b9bf-ab94bb8814df" />
+<img width="466" height="671" alt="image" src="https://github.com/user-attachments/assets/0fbbae08-05d5-4a70-b41f-3a85f911de4e" />
+<img width="458" height="384" alt="image" src="https://github.com/user-attachments/assets/07bdca4f-25f2-457f-b3a3-ef9bc5d8ddb4" />
 
 # Reference
 
