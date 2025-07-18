@@ -186,8 +186,66 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 * Advantages of CMOS cross-coupled VCOs compared to other two are, CMOS cross coupled VCOs gives double the output amplitude compared to the NMOS cross-coupled circuit, power consumed is less,low Phase noise and higher transconductance
 * Before actually implementing the entire CMOS cross coupled LC VCO, analyzing the ac and transient behavior of the basic parallel resonator circuit is important.
 
-# AC Analysis of Parallel Resonator Circuit:
+## AC Analysis of Parallel Resonator Circuit:
 ![Screenshot from 2025-05-06 11-29-12](https://github.com/user-attachments/assets/1a8d3d81-1388-4f0f-a644-9aacd5259450)
+
+## AC resonant frequency and Rp:
+<img width="1920" height="1080" alt="2 AC resonant frequency and Rp" src="https://github.com/user-attachments/assets/af5cf579-cb64-4d19-af87-a2a6f5c82fa0" />
+
+## Parallel L-C Moscapacitor AC ckt:
+<img width="1920" height="1080" alt="3 Parallel LCmoscap AC ckt" src="https://github.com/user-attachments/assets/cea5147e-c31b-436f-bf79-04e1a68a860c" />
+
+## LC AC input resonant frequency and Rp:
+<img width="1920" height="1080" alt="4 LC AC ip resonant frequency and Rp" src="https://github.com/user-attachments/assets/ad952c46-c5b3-40a8-8f0c-c3fcc52717dd" />
+
+## Parallel LCmoscap Transient circuit:
+<img width="1920" height="1080" alt="5 Parallel LCmos Transient ckt" src="https://github.com/user-attachments/assets/9b821499-ffc3-4d66-8d84-753335fe331d" />
+
+## Vctrl with 1.4V cutoff and bandwidth in LC oscillator:
+<img width="1920" height="1080" alt="5b Vctrl_1 4_cutoff and bandwidth in LC osc" src="https://github.com/user-attachments/assets/7821ba7e-5c1b-485e-9be4-f4077ac71a48" />
+
+## LC oscillation transient input:
+<img width="1920" height="1080" alt="6 LC oscillation transient ip" src="https://github.com/user-attachments/assets/ddc96d2e-fc54-4bc3-a67c-95d8fb69091a" />
+
+## CMOS LC VCO with DC Operating point:
+<img width="1920" height="1080" alt="7 CMOS LC VCO+DC OP" src="https://github.com/user-attachments/assets/28bf62da-6d6e-4e37-a9ce-0be7ba84d975" />
+
+## CMOS VCO AC resonant frequency and Rp with Explorer:
+<img width="1920" height="1080" alt="8c CMOS VCOAC resonant frequency and Rp" src="https://github.com/user-attachments/assets/38719d82-54ec-4a6c-97f9-97a02ee9f59d" />
+
+## VCO LCmoscap Transient ckt:
+<img width="1920" height="1080" alt="9a VCO LCmos Transient ckt" src="https://github.com/user-attachments/assets/6e93ff43-b916-4464-805c-6d52a34f2af2" />
+
+## LC oscillation 1 cycle transient input:
+<img width="1920" height="1080" alt="5b Vctrl_1 4_cutoff and bandwidth in LC osc" src="https://github.com/user-attachments/assets/c454c461-49b6-4f6c-ab8d-38219cd2e24c" />
+
+## LC oscillation transient input:
+<img width="1920" height="1080" alt="10a LC oscillation transient ip" src="https://github.com/user-attachments/assets/1f5c76a6-8986-49a8-9bec-11cea7e9f57f" />
+
+## Vcontrol from 0.425V to 1.4V:
+<img width="1920" height="1080" alt="12 Vctrl from 0 425to1 4" src="https://github.com/user-attachments/assets/92026fdf-0086-42a4-97b9-c3796514a4ff" />
+
+## Vcontrol variation from 0.425V to 1.4V current & Vout:
+<img width="1920" height="1080" alt="13 Vctrl from 0 425to1 4 current Rp" src="https://github.com/user-attachments/assets/db355ea0-a32c-4a9a-9958-61c846b47535" />
+
+## Vcontrol of 1.4V VCO current:
+<img width="1920" height="1080" alt="15 Vctrl 1 4 VCO current" src="https://github.com/user-attachments/assets/734bb9bd-1102-4740-9e91-4bd4daf405ef" />
+
+## Setting PN Analysis:
+<img width="1920" height="1080" alt="Setting PN Analysis" src="https://github.com/user-attachments/assets/27332267-e144-4f20-975f-3792f8215edd" />
+
+## Vctrl of 1.4V VCO Phase Noise:
+<img width="1920" height="1080" alt="17 Vctrl 1 4 VCO PN" src="https://github.com/user-attachments/assets/3b542eec-c7ff-4b8f-ad18-fc973e2d9656" />
+<img width="1920" height="1080" alt="16 Vctrl 1 4 VCO PN" src="https://github.com/user-attachments/assets/12d6c26d-3891-4726-adf1-7201f50784cf" />
+
+## Explorer L,C parametric sweep:
+<img width="1920" height="1080" alt="Explorer L,C parametric" src="https://github.com/user-attachments/assets/7007ad6a-cc73-4323-aa15-43ff7dbfc94b" />
+
+## I variation with L,C parametric sweep:
+<img width="1920" height="1080" alt="ivariation with L,C parametric" src="https://github.com/user-attachments/assets/7c71b389-44f8-4cab-9ec1-d1cd72b4abc4" />
+
+## Rp variation with L,C parametric sweep:
+<img width="1920" height="1080" alt="Rpvariation with L,C parametric" src="https://github.com/user-attachments/assets/97ba10bd-acdf-434f-ba99-2b74691f67c1" />
 
 # Reference
 
