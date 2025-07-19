@@ -192,15 +192,28 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 ## AC resonant frequency and Rp:
 <img width="1920" height="1080" alt="2 AC resonant frequency and Rp" src="https://github.com/user-attachments/assets/af5cf579-cb64-4d19-af87-a2a6f5c82fa0" />
 
+* AC analysis focuses on identifying the resonant frequency and losses (Rp) in the tank circuit.
+* A sine wave is applied at the input, and the output current is plotted against frequency to find the resonant point.
+* In a parallel LC resonator, the resonant frequency corresponds to the frequency at which circuit current reaches its minimum.
+  
 ## Parallel L-C Moscapacitor AC ckt:
 <img width="1920" height="1080" alt="3 Parallel LCmoscap AC ckt" src="https://github.com/user-attachments/assets/cea5147e-c31b-436f-bf79-04e1a68a860c" />
 
 ## LC AC input resonant frequency and Rp:
 <img width="1920" height="1080" alt="4 LC AC ip resonant frequency and Rp" src="https://github.com/user-attachments/assets/ad952c46-c5b3-40a8-8f0c-c3fcc52717dd" />
 
+* The total tank resistance (Rp) is measured during AC analysis to evaluate losses, which can be compensated using a CMOS cross-coupled pair in LC-VCO design.
+* To plot Rp, both the input voltage and current of the parallel resonator are selected, following the same method used for resonant frequency measurement.
+  
 ## Parallel LCmoscap Transient circuit:
 <img width="1920" height="1080" alt="5 Parallel LCmos Transient ckt" src="https://github.com/user-attachments/assets/9b821499-ffc3-4d66-8d84-753335fe331d" />
 
+* The resonant frequency of an LC circuit is tuned by adjusting the inductor (L) and capacitor (C) values using the formula ω = 1/√(LC).
+* To verify self-sustained oscillation, the AC input is removed after setting resonance; in real hardware, noise initiates oscillation, but simulation requires an initial condition.
+* One way to apply an initial condition is by connecting a pre-charged capacitor in parallel with the resonator; this voltage kickstarts oscillation and fades without affecting steady-state operation; this method used in simulation of CMOS LC-VCO.
+* Alternatively, Cadence Virtuoso’s ADE provides an “Initial Condition” option under Convergence Aids, allowing the user to directly assign a voltage to any node;this method used in simulation of NMOS LC-VCO.
+* The output waveform confirms oscillation, and the pre-charged capacitor’s voltage gradually drops to zero, having no long-term influence on circuit behavior.
+  
 ## Vctrl with 1.4V cutoff and bandwidth in LC oscillator:
 <img width="1920" height="1080" alt="5b Vctrl_1 4_cutoff and bandwidth in LC osc" src="https://github.com/user-attachments/assets/7821ba7e-5c1b-485e-9be4-f4077ac71a48" />
 
