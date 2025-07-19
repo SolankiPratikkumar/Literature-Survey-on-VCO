@@ -383,7 +383,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 <img width="2744" height="3104" alt="image" src="https://github.com/user-attachments/assets/d7d9299b-aa5d-4413-9640-cde769f8c969" />
 <img width="845" height="417" alt="image" src="https://github.com/user-attachments/assets/dbb17418-3a71-408d-81af-6510b6d307bf" />
 
-#### Finally, try to size the CMOS based LC-VCO circuit but NMOS,PMOS width was too large that,simulator can't take those value.
+#### Finally, try to size the CMOS based LC-VCO circuit but NMOS,PMOS width was too large that,simulator can't take those value for current pdk technology node.
 
 ## Conclusion:
 
