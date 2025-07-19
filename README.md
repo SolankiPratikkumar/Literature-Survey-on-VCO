@@ -357,7 +357,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 ### Oscillation Frequency of 10GHz for given RLC circuit:
 <img width="1920" height="1080" alt="5_Foscillation for 10GHz" src="https://github.com/user-attachments/assets/a0547e46-e745-4cb8-9c4a-f3f0a7edb80a" />
 
-#### Finally try to size the circuit but NMOS,PMOS width was too large that,simulator can't take those value.
+#### Finally, try to size the CMOS based LC-VCO circuit but NMOS,PMOS width was too large that,simulator can't take those value.
 
 # Reference
 
