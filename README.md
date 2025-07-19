@@ -196,7 +196,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 * A sine wave is applied at the input, and the output current is plotted against frequency to find the resonant point.
 * In a parallel LC resonator, the resonant frequency corresponds to the frequency at which circuit current reaches its minimum.
   
-## Parallel L-C Moscapacitor AC ckt:
+## Parallel L-C Moscapacitor AC circuit:
 <img width="1920" height="1080" alt="3 Parallel LCmoscap AC ckt" src="https://github.com/user-attachments/assets/cea5147e-c31b-436f-bf79-04e1a68a860c" />
 
 * To enhance the tuning range of the VCO, fixed capacitors are replaced with center-tapped PMOS varactors.
