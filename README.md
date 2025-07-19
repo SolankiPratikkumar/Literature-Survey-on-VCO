@@ -361,7 +361,10 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 ## Conclusion:
 
-* Designed and simulated CMOS and NMOS cross-coupled LC-VCOs at 7.9 GHz and 10 GHz resonance, achieving low phase noise of –61 dBc/Hz (CMOS) and –103 dBc/Hz (NMOS) at 1 MHz offset with 1.4 V control voltage, demonstrating suitability for low-jitter RF applications.
+* Designed and simulated CMOS and NMOS cross-coupled LC-VCOs with RLC resonant frequencies of 7.9 GHz and 10 GHz, respectively.  
+* Used Cadence Virtuoso and Spectre simulator to analyze oscillation stability and phase noise performance.  
+* Achieved phase noise of –61 dBc/Hz (CMOS) and –103 dBc/Hz (NMOS) at 1 MHz offset with 1.4 V control voltage.  
+* Results indicate suitability for low-jitter, high-frequency RF and clock generation applications.  
 
 # Reference
 
