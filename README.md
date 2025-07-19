@@ -223,8 +223,10 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 ## LC oscillation transient input:
 <img width="1920" height="1080" alt="6 LC oscillation transient ip" src="https://github.com/user-attachments/assets/ddc96d2e-fc54-4bc3-a67c-95d8fb69091a" />
 
-## Sizing Transistor of CMOS LC-VCO circuit:
+## Sizing Transistor of CMOS LC-VCO circuit for fres = 7.9 GHz:
 
+<img width="2256" height="3560" alt="image" src="https://github.com/user-attachments/assets/4a0574cb-67f7-4d66-9a05-592ca1011e31" />
+<img width="2384" height="1312" alt="image" src="https://github.com/user-attachments/assets/c2a8ee1f-1975-4aad-a59d-8cc9cabb5f9b" />
 
 ## CMOS LC VCO with DC Operating point:
 <img width="1920" height="1080" alt="7 CMOS LC VCO+DC OP" src="https://github.com/user-attachments/assets/28bf62da-6d6e-4e37-a9ce-0be7ba84d975" />
@@ -375,6 +377,11 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 ### Oscillation Frequency of 10GHz for given RLC circuit:
 <img width="1920" height="1080" alt="5_Foscillation for 10GHz" src="https://github.com/user-attachments/assets/a0547e46-e745-4cb8-9c4a-f3f0a7edb80a" />
+
+## Sizing Transistor of CMOS LC-VCO circuit for fres = 10 GHz:
+
+<img width="2744" height="3104" alt="image" src="https://github.com/user-attachments/assets/d7d9299b-aa5d-4413-9640-cde769f8c969" />
+<img width="845" height="417" alt="image" src="https://github.com/user-attachments/assets/dbb17418-3a71-408d-81af-6510b6d307bf" />
 
 #### Finally, try to size the CMOS based LC-VCO circuit but NMOS,PMOS width was too large that,simulator can't take those value.
 
