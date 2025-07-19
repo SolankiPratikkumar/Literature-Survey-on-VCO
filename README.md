@@ -23,7 +23,7 @@
 * Consider the unity-gain negative-feedback Vout/Vin(s) = H(s)/[1 + H(s)]
 * If a negative-feedback circuit has a loop gain that satisfies two conditions:
 |H(jω0)| ≥ 1
-H(jω0) = 180degree
+H(jω0) = 180°
 * That is Barkhausen’s Criteria, in RC and LC based VCO Circuits the frequency is given by f=1/2piRC and f= 1/2pirt(LC) respectively so as the C value decreases the output f increase by inversely proportionate and as it follows Linear relation with voltage, hence also so as input voltage increase the output frequency increases, same follows for other case.The control voltage and frequency of oscillations are directly proportional. That is, when one increases, the other will increase.
 * We can see that at nominal control voltage represented by Vc(nom), the oscillator works at its free running or normal frequency, fc(nom).
 * As the control voltage decreases from nominal voltage, the frequency also decreases and as the nominal control voltage increases, the frequency also increases.
@@ -94,7 +94,7 @@ high input), forcing VY to rise to VDD after one inverter delay, TD, and VZ to f
 * While the small-signal oscillation frequency is given by A0√3ω0/2 when the circuit is released with all inverters at their trip point, the oscillation begins
 with a frequency of √3A0ω0/2, but, as the amplitude grows and the circuit becomes nonlinear, the frequency shifts to 1/(6TD) (which is a lower value)
 
-# Differential Ring VCO
+# Differential Ring VCO:
 
 ![image](https://github.com/user-attachments/assets/78c41502-bf5c-4a60-9ede-ffba9656b97c)
 
@@ -106,7 +106,7 @@ I1 ≈ VDD − VREF
 * Thus, if process and temperature variations, say, decrease I1 and ISS, then A1 increases the on-resistance of M3–M5, forcing VP and hence VX and VY (when M1 or M2 is fully on) equal to VREF The bandwidth of the op amp A1 in Figure is of some concern.
 * If a change in Vcont takes a long time to change ωout, then the settling speed of a PLL using this VCO degrades significantly.
 
-# Current Straved VCO
+# Current Straved VCO:
 
 ![image](https://github.com/user-attachments/assets/ceb73701-fb34-47db-8478-db25d19b81d4)
 
@@ -358,6 +358,10 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 <img width="1920" height="1080" alt="5_Foscillation for 10GHz" src="https://github.com/user-attachments/assets/a0547e46-e745-4cb8-9c4a-f3f0a7edb80a" />
 
 #### Finally, try to size the CMOS based LC-VCO circuit but NMOS,PMOS width was too large that,simulator can't take those value.
+
+## Conclusion:
+
+* Designed and simulated CMOS and NMOS cross-coupled LC-VCOs at 7.9 GHz and 10 GHz resonance, achieving low phase noise of –61 dBc/Hz (CMOS) and –103 dBc/Hz (NMOS) at 1 MHz offset with 1.4 V control voltage, demonstrating suitability for low-jitter RF applications.
 
 # Reference
 
