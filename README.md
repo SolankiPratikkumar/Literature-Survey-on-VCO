@@ -249,7 +249,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 
 # NMOS Based LC-VCO:
-## University Of California RF Learnings:
+## University Of California LC-VCO Learnings:
 
 <img width="408" height="579" alt="image" src="https://github.com/user-attachments/assets/cf7848a1-aa13-4118-b95a-4bb3bb1d7a69" />
 
