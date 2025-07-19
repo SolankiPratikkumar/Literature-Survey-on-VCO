@@ -199,6 +199,9 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 ## Parallel L-C Moscapacitor AC ckt:
 <img width="1920" height="1080" alt="3 Parallel LCmoscap AC ckt" src="https://github.com/user-attachments/assets/cea5147e-c31b-436f-bf79-04e1a68a860c" />
 
+* To enhance the tuning range of the VCO, fixed capacitors are replaced with center-tapped PMOS varactors.
+* The Cadence Virtuoso setup and AC analysis method remain similar, where the resonant frequency is identified by locating the minimum current in the response plot.
+  
 ## LC AC input resonant frequency and Rp:
 <img width="1920" height="1080" alt="4 LC AC ip resonant frequency and Rp" src="https://github.com/user-attachments/assets/ad952c46-c5b3-40a8-8f0c-c3fcc52717dd" />
 
@@ -219,6 +222,9 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 
 ## LC oscillation transient input:
 <img width="1920" height="1080" alt="6 LC oscillation transient ip" src="https://github.com/user-attachments/assets/ddc96d2e-fc54-4bc3-a67c-95d8fb69091a" />
+
+## Sizing Transistor of CMOS LC-VCO circuit:
+
 
 ## CMOS LC VCO with DC Operating point:
 <img width="1920" height="1080" alt="7 CMOS LC VCO+DC OP" src="https://github.com/user-attachments/assets/28bf62da-6d6e-4e37-a9ce-0be7ba84d975" />
@@ -257,7 +263,7 @@ operating frequency ranges of ring-based VCO, The maximum operating frequency ra
 ## I variation with L,C parametric sweep:
 <img width="1920" height="1080" alt="ivariation with L,C parametric" src="https://github.com/user-attachments/assets/7c71b389-44f8-4cab-9ec1-d1cd72b4abc4" />
 
-## Rp variation with L,C parametric sweep:
+## Resonace Frequency Fres, Rp variation with L,C parametric sweep:
 <img width="1920" height="1080" alt="Rpvariation with L,C parametric" src="https://github.com/user-attachments/assets/97ba10bd-acdf-434f-ba99-2b74691f67c1" />
 
 
